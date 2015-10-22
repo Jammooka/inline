@@ -13,3 +13,9 @@ In an effort to prevent any obvious security risks, it's limited to a certain fo
 |<br>
 */<br>
 $config['svg_folder'] = '/home/xxxxx/public_html/assets/images/';
+
+---
+
+To use, simply drop the filename into the file parameter:
+
+{exp:inline:svg file="filename.svg"}
