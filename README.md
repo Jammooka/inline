@@ -6,10 +6,5 @@ Inline is a stupidly simple and potentially dangerous plugin that uses file_get_
 
 In an effort to prevent any obvious security risks, it's limited to a certain folder, which is set in the config file. If it doesn't have this set, it won't do anything except log an error for the template debugger.
 
-/*
-|--------------------------------------------------------------------------
-| Inline SVG Folder
-|--------------------------------------------------------------------------
-|
-*/
+//Inline SVG Folder
 $config['svg_folder'] = '/home/xxxxx/public_html/assets/images/';
